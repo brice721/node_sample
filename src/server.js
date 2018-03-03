@@ -38,7 +38,7 @@ var server    = http.createServer();
 /** Error handling */
 var errorHandler   = require('./errorHandler');
 var isDev          = app.get('env') === 'development';
-var port           = process.env.PORT || PROCESS.ENV.OPENSHIFT_NODEJS_PORT || process.env.OPENSHIFT_NODEJS_IP || 8080;
+var port           = process.env.PORT || PROCESS.ENV.OPENSHIFT_NODEJS_PORT || 8080;
 var host           = process.env.OPENSHIFT_NODEJS_IP || '127.0.0.1';
 var securePort     = process.env.SECURE_PORT || 8443;
 var environment    = process.env.NODE_ENV || 'development';
