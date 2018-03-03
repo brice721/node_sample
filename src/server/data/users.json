@@ -1,0 +1,24 @@
+{
+    "users": [
+        {
+            "Id": 1,
+            "username": "MattMan1",
+            "password": "password1",
+            "profile": {
+                "givenName": "Matt",
+                "familyName": "VanderPloeg",
+                "email": "matt.vanderploeg@testing.com"
+            }
+        },
+        {
+            "Id": 2,
+            "username": "brice721",
+            "password": "password2",
+            "profile": {
+                "givenName": "Brandon",
+                "familyName": "Rice",
+                "email": "brandon.rice@testing.com"
+            }
+        }
+    ]
+}

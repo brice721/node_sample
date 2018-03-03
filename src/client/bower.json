@@ -1,0 +1,11 @@
+{
+  "name": "node-expamples",
+  "version": "0.0.1",
+  "description": "Node server code examples",
+  "dependencies": {
+      "angular": "1.6.9",
+      "angular-route": "1.6.9",
+      "angular-spinner": "1.0.1",
+      "angular-resource": "1.6.9"
+  }
+}
